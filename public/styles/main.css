@@ -1,0 +1,55 @@
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .img-wrapper {
+    height: 20vh;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.thumbnail .img-wrapper img {
+    width: 100%;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.thumbnail .caption-full h4 {
+    display: inline;
+}
+
+.img-wrapper-show {
+    height: 70vh;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.copyleft {
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    bottom: 15px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.auth-form {
+    position: relative;
+    top: 25vh;
+}
+
+.auth-form * {
+    margin-top: 1vh;
+}
